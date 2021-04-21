@@ -5,6 +5,9 @@ import java.util.Scanner;
 import static java.util.Arrays.setAll;
 import static java.util.Arrays.stream;
 
+/**
+ * Общие методы/переменные, юзаемые во всех классах(тасках)
+ */
 public class TaskHelper {
 
     static Scanner input = new Scanner(System.in);
