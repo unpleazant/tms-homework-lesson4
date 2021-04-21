@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 import static java.util.Arrays.setAll;
 import static java.util.Arrays.stream;
 
@@ -18,3 +16,14 @@ public class FourthTask extends TaskHelper {
     }
 
 }
+/**
+ * Result:
+ *
+ * /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE 2.app/Contents/lib/idea_rt.jar=53887:/Applications/IntelliJ IDEA CE 2.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/evgeny/Documents/tms-homework-lesson4/out/production/tms-homework-lesson4 FourthTask
+ * [4, 6, 1, 9, 9]
+ * [9, 9, 0, 3, 1]
+ * [9, 2, 0]
+ * Sum = 62
+ *
+ * Process finished with exit code 0
+ */

@@ -1,7 +1,4 @@
-import java.util.Arrays;
-
 import static java.util.Arrays.setAll;
-import static java.util.Arrays.stream;
 
 /**
  * 5. Создайте двумерный массив.
@@ -34,3 +31,23 @@ public class FifthTask extends TaskHelper {
     }
 
 }
+/**
+ * Result:
+ *
+ * /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE 2.app/Contents/lib/idea_rt.jar=53890:/Applications/IntelliJ IDEA CE 2.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/evgeny/Documents/tms-homework-lesson4/out/production/tms-homework-lesson4 FifthTask
+ * [6, 5, 8, 5, 4]
+ * [0, 7, 9, 3, 9]
+ * [2, 4, 7, 2, 0]
+ * [9, 1, 2, 8, 1]
+ * [4, 3, 1, 2, 8]
+ *
+ * from top left to bottom right
+ * 6 7 7 8 8
+ * from bottom left to top right
+ * 4 1 7 3 4
+ * from top right to bottom left
+ * 4 3 7 1 4
+ * from bottom right to top left
+ * 8 8 7 7 6
+ * Process finished with exit code 0
+ */

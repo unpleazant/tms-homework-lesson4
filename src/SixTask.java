@@ -23,3 +23,22 @@ public class SixTask extends TaskHelper {
     }
 
 }
+/**
+ * Result:
+ *
+ * /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE 2.app/Contents/lib/idea_rt.jar=53904:/Applications/IntelliJ IDEA CE 2.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/evgeny/Documents/tms-homework-lesson4/out/production/tms-homework-lesson4 SixTask
+ * Before sort():
+ * [5, 8, 0, 7, 3, 3]
+ * [3, 2]
+ * [2, 5, 0, 9, 3]
+ * [6]
+ * [3, 1, 9, 2]
+ * After sort():
+ * [0, 3, 3, 5, 7, 8]
+ * [2, 3]
+ * [0, 2, 3, 5, 9]
+ * [6]
+ * [1, 2, 3, 9]
+ *
+ * Process finished with exit code 0
+ */

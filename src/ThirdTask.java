@@ -29,3 +29,13 @@ public class ThirdTask extends TaskHelper {
     }
 
 }
+/**
+ * Result:
+ *
+ * /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE 2.app/Contents/lib/idea_rt.jar=53788:/Applications/IntelliJ IDEA CE 2.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/evgeny/Documents/tms-homework-lesson4/out/production/tms-homework-lesson4 ThirdTask
+ * [1, 2, 3]
+ * [1, 1, 1]
+ * [0, 0, 0]
+ *
+ * Process finished with exit code 0
+ */
